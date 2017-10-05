@@ -55,7 +55,7 @@ function total() {
          }
          return total;
        }
-}
+
 
 function removeFromCart(item) {
   {let itemInCart = false;
