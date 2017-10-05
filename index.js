@@ -20,8 +20,15 @@ function addToCart(item) {
 
 function viewCart() {
   if (cart.length === 0 ;) {
-    document.print(`In your cart, you have ${itemName} at ${itemPrice}`)
+    document.print("Your shopping cart is empty.");
   }
+else {
+  for (var i = 0; i < cart.length; i++) {
+    var myItems = Object.keys(cart[i]);
+    var itemsPrices = cart[i][myItems];
+    document.print(` ${myItems} at $ ${itemsPrices}`)
+  }
+}
 }
 
 function total() {
