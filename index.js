@@ -18,6 +18,7 @@ function addToCart(item) {
   return cart;
 }
 
+function viewCart() {
 var cartStatement = [];
   if (cart.length === 0) {
     console.log('Your shopping cart is empty.');
@@ -43,6 +44,7 @@ var cartStatement = [];
        console.log('In your cart, you have' + cartStatementUpdated + '.');
      }
   }
+}
 
 function total() {
   // write your code here
