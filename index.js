@@ -29,6 +29,9 @@ else {
     console.log(` ${myItems} at $ ${itemsPrices}`)
   }
 }
+if (true) {
+
+}
 }
 
 function total() {
