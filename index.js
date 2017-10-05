@@ -20,7 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   if (cart.length === 0 ;) {
-    document.print()
+    document.print(`In your cart, you have ${itemName} at ${itemPrice}`)
   }
 }
 
