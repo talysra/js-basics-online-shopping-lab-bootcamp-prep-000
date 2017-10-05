@@ -43,7 +43,6 @@ var cartStatement = [];
        console.log('In your cart, you have' + cartStatementUpdated + '.');
      }
   }
-  }
 
 function total() {
   // write your code here
